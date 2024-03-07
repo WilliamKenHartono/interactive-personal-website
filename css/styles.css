@@ -1,0 +1,57 @@
+/* .main-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  margin-right: 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+} */
+body{
+  margin:0px;
+  padding: 0px;
+  background-color: #222;
+  height: 150%
+}
+#main{
+  width: 100%;
+  height: 70px;
+  background-color: #FFD51E;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 9999;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+@font-face{
+  font-family:dc;
+  src:url(WC_AquaBlues_Bta.otf);
+}
+
+#heading{
+  font-family: dc;
+  font-size: 35px;
+  text-align: center;
+  line-height: 75px;
+}
+
+#heading span{
+  margin-left: -10px;
+}
+/* .fixed{
+  background-color:#000
+}
+.navigation
+{
+    min-height:100px;
+    max-width:100%;
+    background-color:#eee;
+    transition: background-color 500ms;
+} */
